@@ -29,6 +29,8 @@ Here is how I ran this on my Linux environment.
 - On a separate window, run the node get.js.
 
 
+Snapshot of code:
+-----------------
 
 ``` node get.js
 
@@ -36,9 +38,12 @@ Here is how I ran this on my Linux environment.
  The device Type is iotdevice Device id = b827eb984666
 Example app listening at http:0.0.0.0:8081
 [2015-10-10 16:11:41.660] [INFO] [default] - Connected to IoTF successfully
+
 ```
 
 - In the browser click on Led On/off.
+
+
 
   The node.js sits and waits for the incoming Get request from the browser.
   Sends the publish request to turn LED on/off to Bluemix IoTF.
