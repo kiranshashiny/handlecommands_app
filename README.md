@@ -32,13 +32,12 @@ Here is how I ran this on my Linux environment.
 Snapshot of code:
 -----------------
 
-` node get.js
-
+`node get.js`
+`
 [user@oc0650888602 nodetest]$ node get.js
  The device Type is iotdevice Device id = b827eb984666
 Example app listening at http:0.0.0.0:8081
 [2015-10-10 16:11:41.660] [INFO] [default] - Connected to IoTF successfully
-
 `
 
 - In the browser click on Led On/off.
