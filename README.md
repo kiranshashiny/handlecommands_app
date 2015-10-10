@@ -1,8 +1,11 @@
-Node js code to turn a Led On/off on a Raspberry Pi
+Node.js code to turn a Led On/off on a Raspberry Pi
 ===================================================
 
 This has to be used in conjunction with the **'handlecommands_device'** found in this repository.
 
+Run this code on the laptop.
+
+Run the corresponding **handlecommands_device** on the Raspberry Pi to turn Led On/Off.
 
 
 Prerequisites:
@@ -23,7 +26,9 @@ Here is how I ran this on my Linux environment.
 - Open the browser  http://127.0.0.1/get.html
   ( dont click on Led On / off yet ! )
 
-- On a separate window, run the node get.js
+- On a separate window, run the node get.js.
+
+
 
 ``` node get.js
 
